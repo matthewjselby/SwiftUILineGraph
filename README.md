@@ -14,7 +14,7 @@ Given an array of CGPoints:
 ]
 ```
 
-The LineGraph component will provide a smoothed line graph (smoothing based on Catmull-Rom splines) - credit to André Lind for some of the base Catmull-Rom [code](https://github.com/andrelind/swift-catmullrom):
+The LineGraph component will provide a smoothed line graph (smoothing based on Catmull-Rom splines) - credit to [André Lind](https://github.com/andrelind) for some of the base Catmull-Rom [code](https://github.com/andrelind/swift-catmullrom):
 
 ![screenshot](SmoothLineGraph/Github/screenshot.png)
 
