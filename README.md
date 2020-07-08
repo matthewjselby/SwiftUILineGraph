@@ -16,4 +16,4 @@ Given an array of CGPoints:
 
 The LineGraph component will provide a smoothed line graph (smoothing based on Catmull-Rom splines):
 
-![screenshot](Resources/screenshot.png)
+![screenshot](SmoothLineGraph/Resources/screenshot.png)
