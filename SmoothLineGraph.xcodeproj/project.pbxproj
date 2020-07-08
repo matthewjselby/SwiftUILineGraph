@@ -13,6 +13,7 @@
 		32628A2224B655F40073CA3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32628A2124B655F40073CA3D /* Assets.xcassets */; };
 		32628A2524B655F40073CA3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32628A2424B655F40073CA3D /* Preview Assets.xcassets */; };
 		32628A2824B655F40073CA3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32628A2624B655F40073CA3D /* LaunchScreen.storyboard */; };
+		32628A3024B656090073CA3D /* LineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32628A2F24B656090073CA3D /* LineGraph.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		32628A2424B655F40073CA3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		32628A2724B655F40073CA3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32628A2924B655F40073CA3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32628A2F24B656090073CA3D /* LineGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineGraph.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				32628A2124B655F40073CA3D /* Assets.xcassets */,
 				32628A2624B655F40073CA3D /* LaunchScreen.storyboard */,
 				32628A2924B655F40073CA3D /* Info.plist */,
+				32628A2F24B656090073CA3D /* LineGraph.swift */,
 				32628A2324B655F40073CA3D /* Preview Content */,
 			);
 			path = SmoothLineGraph;
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32628A3024B656090073CA3D /* LineGraph.swift in Sources */,
 				32628A1C24B655F20073CA3D /* AppDelegate.swift in Sources */,
 				32628A1E24B655F20073CA3D /* SceneDelegate.swift in Sources */,
 				32628A2024B655F20073CA3D /* ContentView.swift in Sources */,

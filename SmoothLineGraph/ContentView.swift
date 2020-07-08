@@ -10,7 +10,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        LineGraph(points: [
+            CGPoint(x: 1, y: 40),
+            CGPoint(x: 2, y: 40),
+            CGPoint(x: 3, y: 40),
+            CGPoint(x: 6, y: 27),
+            CGPoint(x: 10, y: 100)
+        ]).frame(width: 300, height: 100, alignment: .center)
     }
 }
 
